@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div class="jumbotron">
+    <h1>Lone Wolf Clothing Company</h1>
+    <p class="lead">Shop now through our extensive online wardrobe</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="thumbnail">
+            <h2>@Html.ActionLink("T O P S", "Index", "Tops")</h2>
+            <p><span><img src="~/Content/images/IMG_0935_burned_grande.jpg" width="200" height="200" class="image-responsive" /></span></p>
+         
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="thumbnail">
+            <h2>@Html.ActionLink("B O T T O M S", "Index", "Bottoms")</h2>
+            <p><span><img src="~/Content/images/0035_03833230_0097_f01.jpg" width="200" height="200" class="image-responsive"/></span></p>
+           
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="thumbnail">
+            <h2>@Html.ActionLink("S H O E S", "Index", "Shoes")</h2>
+            <p><img src="~/Content/images/844378_444_P1.jpg" width="200" height="200" class="image-responsive" /></p>
+            
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="thumbnail">
+            <h2>@Html.ActionLink("A C C E S S O R Y", "Index", "Accessories")</h2>
+            <p><img src="~/Content/images/IMG_9063_burned_grande.jpg" width="200" height="200" class="image-responsive" /></p>
+            
+        </div>
+    </div>
+</div>
+
+@*Footer*@
+<div class="panel-footer">
+    <div class="panel panel-default">
+        <div class="panel-body">We Can Code IT Designs 2017</div>
+        <div class="panel-nametext">By Keith David Jackson</div>
+    </div>
+</div>
